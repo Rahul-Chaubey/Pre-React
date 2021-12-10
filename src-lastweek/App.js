@@ -5,6 +5,8 @@ import RefParent from './RefParent';
 import PortalDemo from './PortalDemo';
 import ProfilerDemo from './ProfilerDemo';
 import UserHookSample from './UserHookSample';
+import Increment from './Increment';
+import NewIncrement from './NewIncrement';
 
 function App() {
   const onClickHandler = () => {
@@ -13,11 +15,13 @@ function App() {
   return (
     <div className="App" onClick={onClickHandler}>
      {/* <HookSample /> */}
-     <UserHookSample />
+     {/* <UserHookSample /> */}
      {/* <RefParent /> */}
      {/* I am inside App Component */}
      {/* <PortalDemo/> */}
      {/* <ProfilerDemo /> */}
+     <Increment />
+     <NewIncrement />
     </div>
   );
 }
