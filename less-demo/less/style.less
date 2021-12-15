@@ -6,8 +6,13 @@ body {
   background-color: @background-color;
 }
 
+.my-padding(@size) {
+  padding: @size;
+}
+
 .button {
-  padding: 10px;
+  //padding: 10px;
+  .my-padding(20px);
   color: white;
   background-color: rgb(86, 175, 51);
 }
